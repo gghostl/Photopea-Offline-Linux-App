@@ -1,0 +1,18 @@
+	To turn on GPU accelaration:
+Open Photopea
+Firefox->about:config->webgl.force-enabled true; webgl.disabled false
+Chromium->chrome://flags->#ignore-gpu-blocklist Enabled; #enable-gpu-rasterization Enabled; #disable-accelerated-2d-canvas Disabled
+Other->?
+On NVIDIA (proprietary drivers) additionaly:
+Install nvidia-prime->add in photopea.sh: prime-run after 8887 and before pasted Command/Exec.
+	To get title bar:
+More tools->Customize toolabar...->Title Bar
+	Get rid of Firefox navigation bar(s):
+Go to ~/.local/share/ice->browser_folder->Photopea->create folder: chrome->userChrome.css
+https://github.com/gghostl/Photopea-Offline-Linux-App/blob/26aff8f05684f3fefb138b76e39d1e8fefd091c1/userChrome.css
+	Python procces has to be closed manually with a task manager, command or script:
+command: kill -9 python
+script (put on desktop or somewhere else and execute after closing the app):
+#!/bin/bash
+kill -9 python
+	To run with Feral GameMode add gamemoderun just like with prime-run (additionaly also before python).
