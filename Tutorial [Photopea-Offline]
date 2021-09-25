@@ -11,7 +11,7 @@ Private/Incognito Window: default (off)
 OK
 
 	Download:
-https://github.com/DUOLabs333/Photopea-Offline/releases
+https://github.com/DUOLabs333/Photopea-Offline
 In terminal:
 cd x_directory/Photopea-Offline-main && python -m http.server --directory www.photopea.com 8887
 	Or just from .desktop shortcut (without terminal):
