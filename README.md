@@ -8,3 +8,5 @@ https://github.com/gghostl/Photopea-Offline-Linux-App/blob/a22811cbaa3609e946255
 
 Photopea-Online:
 https://github.com/gghostl/Photopea-Online-Linux-App
+
+Photopea-Linux-App
