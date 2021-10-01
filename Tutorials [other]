@@ -1,4 +1,4 @@
-        Get rid of Firefox navigation bar(s):
+	Get rid of Firefox navigation bar(s):
 Go to ~/.local/share/ice->browser_folder->Photopea->create folder: chrome->userChrome.css
 https://github.com/gghostl/Photopea-Offline-Linux-App/blob/26aff8f05684f3fefb138b76e39d1e8fefd091c1/userChrome.css
 	To get title bar:
